@@ -75,7 +75,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var a = 5;
 var b = 6;
 
+let name = "Ivan Ivanov";
+
 var sum = __WEBPACK_IMPORTED_MODULE_0__calculator__["a" /* default */].sum(a, b);
+console.log(name);
 console.log(sum);
 
 /***/ }),
