@@ -1,0 +1,23 @@
+{
+  "name": "es6overview_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.17.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
